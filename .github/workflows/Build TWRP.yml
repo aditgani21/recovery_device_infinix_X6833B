@@ -10,7 +10,7 @@ env:
 jobs:
   build:
     # if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     # You might want to Checkout your repo first, but not mandatory
     steps:
     - name: Check Out
